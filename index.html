@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Uranium Hub</title>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Montserrat:400,700,200"
+    />
+
+    <style type="text/css">
+      * {
+        margin: 0;
+      }
+
+      body {
+        background: url(https://cdn.glitch.com/66d726ea-efa6-4825-805c-99182b35ffa6%2Fheader.png?v=1619837185908)no-repeat;
+        background-size: cover;
+        height: 100vh;
+        background-position: left;
+      }
+
+      .header {
+        width: 100%;
+        background-color: rgba(0, 0, 0, 0);
+      }
+
+      .header ul {
+        text-align: center;
+      }
+
+      .header ul li {
+        list-style: none;
+        display: inline-block;
+      }
+
+      .header ul li a {
+        text-align: right;
+        display: block;
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+        font-size: 18px;
+        font-family: "Montserrat", sans-serif;
+        text-transform: uppercase;
+        letter-spacing: 0.5px;
+        font-weight: 600;
+        padding: 25px;
+        transition: all ease 0.5s;
+      }
+
+      .header ul li b {
+        text-align: center;
+        display: block;
+        text-decoration: none;
+        color: rgb(30, 255, 0);
+        font-size: 18px;
+        font-family: "Montserrat", sans-serif;
+        text-transform: uppercase;
+        letter-spacing: 0.5px;
+        font-weight: 600;
+        padding: 25px;
+        transition: all ease 0.5s;
+      }
+
+      .header ul li a:hover {
+        background-color: #ffffff36;
+      }
+
+      .header ul li b:hover {
+        background-color: #ffffff36;
+      }
+
+      .centertext {
+        height: 10em;
+        position: relative;
+      }
+
+      .centertext p {
+        font-family: "Montserrat";
+        color: lawngreen;
+        margin: 0;
+        font-size: 50px;
+        position: absolute;
+        top: 100%;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%);
+      }
+
+      .centerdesc {
+        height: 10em;
+        position: relative;
+      }
+
+      .centerdesc p {
+        font-family: "Montserrat";
+        color: rgb(255, 255, 255);
+        margin: 0;
+        font-size: 30px;
+        position: absolute;
+        top: 40%;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%);
+      }
+
+     .button {
+       background-color: #1eff00;
+       border: none;
+       color: rgb(0, 0, 0);
+       padding: 10px;
+       text-decoration: none;
+      top: -5%;
+       left: 47%;
+       font-size: 16px;
+       margin: 2px 1px;
+       font-family: "Montserrat", sans-serif;
+       position: relative;
+       cursor: pointer;
+       transition: 0.5s;
+       box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2),
+         0 6px 20px 0 rgba(0, 0, 0, 0.19);
+     }
+
+     .button1 {
+       border-radius: 12px;
+     }
+    </style>
+  </head>
+  <body>
+    <div class="header">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="https://discord.gg/bkrY3hpZuR">Discord</a></li>
+        <li><b href="#">Uranium Hub</b></li>
+        <li><a href="faq.html">FAQ</a></li>
+        <li><a href="premium.html">Premium</a></li>
+      </ul>
+    </div>
+
+    <div class="centertext">
+      <p>Uranium Hub</p>
+    </div>
+
+    <div class="centerdesc">
+      <p>The future of script hubs.</p>
+    </div>
+
+    <button
+      class="button button1"
+      onclick="window.location.href='storage/loadstring.lua';"
+    >
+      Get script
+    </button>
+
+    <script async src="https://arc.io/widget.min.js#yUf3WhSB"></script>
+  </body>
+</html>
